@@ -26,7 +26,11 @@ public class Main {
         SortingAlgorithms.bubbleSort(bubbleSortedNumbers);
         System.out.print("Bubble Sort: ");
         printArray(bubbleSortedNumbers);
-    }
+    
+    int[] selectionSortedNumbers = numbers.clone();
+SortingAlgorithms.selectionSort(selectionSortedNumbers);
+System.out.print("Selection Sort: ");
+printArray(selectionSortedNumbers);}
 
     public static void printArray(int[] arr) {
         for (int num : arr) {
