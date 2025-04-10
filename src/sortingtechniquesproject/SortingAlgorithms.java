@@ -19,7 +19,7 @@ public class SortingAlgorithms {
                 }
             }
         }
-        System.out.println("Swaps Done :"+ swapCount);
+        System.out.println("Swaps in bubble sort Done :"+ swapCount);
     }
     public static void selectionSort(int[] arr) {
     for (int i = 0; i < arr.length - 1; i++) {
